@@ -1,0 +1,51 @@
+.full-container{
+    border: 3px Solid rgba(0, 255, 166, 0.055);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 8px 4px rgb(0, 255, 166) ;
+}
+
+.full-container > :nth-child(1){
+    color: rgb(0,79,62);
+    text-shadow: 1px 0px 2px rgb(0, 255, 166);
+}
+
+.lottery{
+    border: 1px solid rgb(0, 255, 166) ;
+    border-radius: 8px;
+    /* padding: 10px; */
+    font-size: 40px;
+    color: rgba(221, 255, 0, 0.965);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+
+}
+
+h2{
+    color: cadetblue;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+ .full-container button{
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgba(161,205,50, 0.531);
+    
+} 
+
+.lottery > :nth-child(1){
+    color: red;
+}
+
+.lottery > :nth-child(2){
+    color: darkgoldenrod;
+}
+
+.lottery > :nth-child(3){
+    color: darkorange;
+}
